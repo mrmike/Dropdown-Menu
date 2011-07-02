@@ -1,0 +1,88 @@
+/* basic reset */
+
+body, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* end basic reset */
+
+
+/*Generic */
+
+#wrap {
+	width: 960px;
+	margin: 2em auto;	 
+}
+
+
+/* Dropdown menu */
+ul#nav {
+	font-family: "Palatino Linotype";
+	font-size: 17px;
+	height: 3em;
+	float: left;
+}
+
+ul#nav li {
+	float: left;
+	margin-right: 10px;
+	width: 8em;
+
+	
+}
+
+ul#nav  a {
+	display: block;
+	padding: 4px 8px;
+	border: 1px solid black;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	text-align: center;
+}
+
+ul#nav a:hover {
+	color: #fff;
+	background-color: #222;
+}
+
+
+
+ul#nav li ul.subMenu {
+	position: relative;
+	top: -10px;
+	left: -4px;
+	opacity: 0;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+
+}
+
+
+ul#nav li:hover ul.subMenu {
+	top: 2px;
+	opacity: 1;
+}
+
+ul#nav li ul.subMenu li {
+	padding: 2px 4px;
+	width: 8em;
+	background-color: #fff;
+	opacity: 0.9;
+}
+
+p {
+	clear: both;
+}
