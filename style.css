@@ -54,7 +54,7 @@ ul#nav li {
 
 
 /* styling anchor elements */
-ul#nav  a {
+ul#nav a, ul#nav span {
 	border: 1px solid black;
 	display: block;
 	padding: 4px 8px;
@@ -81,7 +81,7 @@ ul#nav li ul.subMenu {
 	left: -4px;
 	opacity: 0;
 	position: relative;
-	top: -10px;
+	top: -5px;
 	/* transition */
 	-webkit-transition: top 0.4s ease-out;
 	-moz-transition: top 0.4s ease-out;
@@ -102,7 +102,7 @@ ul#nav:hover{
 }
 
 ul#nav li:hover ul.subMenu {
-	top: 2px;
+	top: 5px;
 	left: -4px;
 	opacity: 0.9;
 }
