@@ -22,15 +22,17 @@ ul {
 #wrap {
 	width: 960px;
 	margin: 2em auto;	 
+	font-family: "Palatino Linotype", helvetica, arial, sans-serif;
 }
+
 
 
 /* Dropdown menu */
 ul#nav {
-	font-family: "Palatino Linotype";
 	font-size: 17px;
 	height: 3em;
 	float: left;
+	overflow: hidden;
 }
 
 ul#nav li {
@@ -64,16 +66,22 @@ ul#nav li ul.subMenu {
 	top: -10px;
 	left: -4px;
 	opacity: 0;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
 
 }
 
 
 ul#nav li:hover ul.subMenu {
 	top: 2px;
+	left: -4px;
 	opacity: 1;
+	
+}
+
+ul#nav:hover{
+	overflow: visible;
 }
 
 ul#nav li ul.subMenu li {
@@ -82,6 +90,7 @@ ul#nav li ul.subMenu li {
 	background-color: #fff;
 	opacity: 0.9;
 }
+
 
 p {
 	clear: both;
