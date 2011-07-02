@@ -30,16 +30,17 @@ ul {
 /* Dropdown menu */
 ul#nav {
 	font-size: 17px;
-	height: 3em;
+	height: 2em;
 	float: left;
 	overflow: hidden;
+	margin-bottom: 5px;
+
 }
 
 ul#nav li {
 	float: left;
 	margin-right: 10px;
 	width: 8em;
-
 	
 }
 
